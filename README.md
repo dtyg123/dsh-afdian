@@ -41,7 +41,7 @@ git clone https://github.com/YOUR_USERNAME/dsh-afdian.git ~/.dsh/profiles/web-de
 
 ### 获取凭证
 
-1. 打开 https://afdian.net/dashboard/dev
+1. 打开 https://ifdian.net/dashboard/dev
 2. 获取 API Token 和 User ID
 
 ### 图形化界面（推荐）
@@ -103,5 +103,5 @@ MIT
 
 ## 链接
 
-- [爱发电开发者文档](https://afdian.net/dashboard/dev)
+- [爱发电开发者文档](https://ifdian.net/dashboard/dev)
 - [DSH 插件开发文档](https://github.com/deepseek-ai/deepseek-harness)

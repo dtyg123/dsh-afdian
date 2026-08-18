@@ -14,6 +14,6 @@ git clone https://github.com/dtyg123/dsh-afdian.git ~/.dsh/profiles/web-desktop/
 ```
 
 ### 配置
-1. 打开 https://afdian.net/dashboard/dev 获取 API Token 和 User ID
+1. 打开 https://ifdian.net/dashboard/dev 获取 API Token 和 User ID
 2. 在 DSH 设置中配置
 3. 点击测试连接验证
