@@ -22,7 +22,7 @@ npm install -g dsh-afdian
 
 ```bash
 # 克隆到 DSH 插件目录
-git clone https://github.com/YOUR_USERNAME/dsh-afdian.git ~/.dsh/profiles/web-desktop/node_modules/dsh-afdian
+git clone https://github.com/islandnoti/dsh-afdian.git ~/.dsh/profiles/web-desktop/node_modules/dsh-afdian
 ```
 
 ### 方式三：手动安装
