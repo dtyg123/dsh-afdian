@@ -26,13 +26,13 @@
     "爱发电",
     "plugin"
   ],
-  "homepage": "https://github.com/islandnoti/dsh-afdian#readme",
+  "homepage": "https://github.com/dtyg123/dsh-afdian#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/islandnoti/dsh-afdian.git"
+    "url": "https://github.com/dtyg123/dsh-afdian.git"
   },
   "bugs": {
-    "url": "https://github.com/islandnoti/dsh-afdian/issues"
+    "url": "https://github.com/dtyg123/dsh-afdian/issues"
   },
   "cpu": [
     "x64"
