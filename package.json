@@ -1,0 +1,60 @@
+{
+  "name": "dsh-afdian",
+  "version": "0.1.0",
+  "description": "爱发电 (Afdian) data plugin for DeepSeek Harness - with GUI settings",
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/",
+    "lib/",
+    "settings.html",
+    "cordis.patch.yml",
+    "README.md",
+    ".gitignore"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "afdian",
+    "爱发电",
+    "plugin"
+  ],
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/dsh-afdian#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/dsh-afdian.git"
+  },
+  "bugs": {
+    "url": "https://github.com/USER/dsh-afdian/issues"
+  },
+  "cpu": [
+    "x64"
+  ],
+  "os": [
+    "win32",
+    "linux",
+    "darwin"
+  ],
+  "engines": {
+    "node": ">=22.19"
+  },
+  "dependencies": {},
+  "dsh": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings-plugins"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
