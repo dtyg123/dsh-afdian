@@ -31,3 +31,6 @@ logs/
 # Build output
 dist/
 build/
+
+# NVIDIA driver files
+NVIDIA Corporation/
