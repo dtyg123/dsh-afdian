@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Config files (contain sensitive data)
+.env
+.env.local
+.env.*.local
+
+# DSH config
+*.json
+!package.json
+!package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# PowerShell scripts
+*.ps1
+
+# Build output
+dist/
+build/
